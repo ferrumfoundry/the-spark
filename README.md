@@ -7,7 +7,7 @@
 <p align="center"><strong>Three AI teammates. One real computer. Work that actually gets done.</strong></p>
 
 <p align="center">
-  <a href="https://ferrumfoundry.github.io/foundry/">Website</a> · <a href="#plans">Plans</a> · <a href="#how-it-works">How it works</a> · <a href="#safety-first">Safety</a>
+  <a href="https://ferrumfoundry.github.io/the-spark/">Website</a> · <a href="#plans">Plans</a> · <a href="#how-it-works">How it works</a> · <a href="#safety-first">Safety</a>
 </p>
 
 <p align="center">
