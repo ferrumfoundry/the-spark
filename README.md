@@ -69,3 +69,13 @@ If a model ever tried to break out, its session is killed first — the whole ap
 The Spark is a **Ferrum** project. Created by Jakob, founder of Ferrum — an independent studio building AI experiences: teammates that do real work, under rules that keep them yours.
 
 Questions, ideas, and bug reports are welcome in this repo's Issues.
+
+---
+
+## Intellectual property
+
+The Spark is the intellectual property of **Ferrum**, the company that
+created it. This repository is public so you can **look at it — reading
+is the only thing permitted.** No code, design, artwork, character, or
+text from The Spark may be copied, reused, modified, or redistributed.
+See [LICENSE](LICENSE) for the full notice.
