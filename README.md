@@ -53,7 +53,7 @@ The Spark launches **December 22, 2026**.
 | --- | --- | --- |
 | **The Spark — all three** | **$45 / month** (sale — regularly $60) | Onyx, Rune and Talon together in The Spark app |
 | **One Spark** | **$15 / month** (sale — regularly $20) | One Spark of your choice, inside the Ironworks app |
-| **Spark Seats** | **$19 / seat / month** (sale — regularly $20; plans start at $200/month) | A seat for each person at a business |
+| **Spark Seats** | **$19 / seat / month** (sale — regularly $20; plans start at $200/month) | A seat for each person at a business — its own subscription, separate from the other plans |
 
 **How paying works:** when subscriptions open, you subscribe on the website and pay by card through our checkout. Your Sparks are rented teammates — they live on Ferrum Cloud, so there is nothing to install on a server of your own, and your subscription simply keeps your team on.
 
