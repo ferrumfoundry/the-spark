@@ -55,6 +55,8 @@ The Spark launches **December 22, 2026**.
 | **One Spark** | **$15 / month** (sale — regularly $20) | One Spark of your choice, inside the Ironworks app |
 | **Spark Seats** | **$100 / month** (sale — regularly $200) | A seat for each person at a business — its own subscription, separate from the other plans |
 
+Regular Spark subscriptions are for one account only — buying the same plan again does not stack extra usage or tokens on one account. Spark Seats are different: a business's own subscription with a seat for each person. Full rules: [Pricing & seats policy](https://ferrumfoundry.github.io/the-spark/pricing-policy.html).
+
 **How paying works:** when subscriptions open, you subscribe on the website and pay by card through our checkout. Your Sparks are rented teammates — they live on Ferrum Cloud, so there is nothing to install on a server of your own, and your subscription simply keeps your team on.
 
 **Subscriptions are not open yet. Nobody is charged until they are.**
