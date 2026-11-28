@@ -69,4 +69,26 @@
   $$('.faq details').forEach(d => d.addEventListener('toggle', () => {
     if (d.open) $$('.faq details').forEach(o => { if (o !== d) o.open = false; });
   }));
+
+  /* ---- Pricing: limited-time offer tabs + countdown ---- */
+  const tabs = $$('.offer-tab');
+  if (tabs.length) {
+    tabs.forEach(t => t.addEventListener('click', () => {
+      tabs.forEach(o => { o.classList.toggle('is-on', o === t); o.setAttribute('aria-selected', o === t ? 'true' : 'false'); });
+      $$('.offer-panel').forEach(pn => { pn.hidden = pn.id !== t.dataset.panel; });
+    }));
+  }
+  const cd = ['cd-d', 'cd-h', 'cd-m', 'cd-s'].map(id => document.getElementById(id));
+  if (cd[0]) {
+    const end = Date.parse('2026-12-26T00:00:00-05:00');
+    const pad = n => String(n).padStart(2, '0');
+    const tick = () => {
+      let ms = Math.max(0, end - Date.now());
+      const d = Math.floor(ms / 864e5); ms -= d * 864e5;
+      const h = Math.floor(ms / 36e5); ms -= h * 36e5;
+      const m = Math.floor(ms / 6e4); const sec = Math.floor((ms - m * 6e4) / 1e3);
+      cd[0].textContent = pad(d); cd[1].textContent = pad(h); cd[2].textContent = pad(m); cd[3].textContent = pad(sec);
+    };
+    tick(); setInterval(tick, 1000);
+  }
 })();
