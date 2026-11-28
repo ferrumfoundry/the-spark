@@ -273,3 +273,26 @@ footer{padding:56px 0 48px;border-top:1px solid var(--line);color:var(--muted);f
   *,*::before,*::after{animation:none!important;transition:none!important}
   .reveal,.log li{opacity:1!important;transform:none!important}
 }
+
+/* ===== Limited-time offer (pricing) ===== */
+.offer{max-width:640px;margin:26px auto 0;background:var(--surface);border:1px solid var(--line);border-radius:26px;box-shadow:var(--shadow);padding:26px 26px 28px}
+.offer-count{display:flex;justify-content:center;gap:6px;background:var(--bg-warm);border:1px solid var(--line);border-radius:16px;padding:10px 14px;margin:0 auto 20px;width:fit-content}
+.offer-cell{display:flex;flex-direction:column;align-items:center;min-width:52px}
+.offer-cell b{font-family:var(--display);font-size:26px;font-weight:800;line-height:1;color:var(--ink)}
+.offer-cell small{font-size:9px;font-weight:800;letter-spacing:1.4px;color:var(--dim);margin-top:3px}
+.offer-cell+.offer-cell{border-left:1px solid var(--line-2);padding-left:6px}
+.offer-tabs{display:grid;grid-template-columns:1fr 1fr 1fr;gap:4px;background:var(--bg-warm);border:1px solid var(--line);border-radius:999px;padding:4px;margin-bottom:22px}
+.offer-tab{border:0;background:transparent;border-radius:999px;padding:10px 6px;font-family:var(--display);font-weight:700;font-size:15px;color:var(--muted);cursor:pointer;transition:background .25s var(--ease),color .25s}
+.offer-tab.is-on{background:var(--ink);color:#fff}
+.offer-panel .plat__h{margin-bottom:14px}
+.offer-benefits{list-style:none;margin:0 0 20px;padding:0;display:flex;flex-direction:column;gap:10px}
+.offer-benefits li{display:flex;gap:10px;align-items:flex-start;font-weight:700;color:var(--ink-2)}
+.offer-benefits li svg{width:20px;height:20px;flex:none;color:var(--violet);margin-top:3px}
+.offer-box{border:2px solid var(--violet);background:var(--tint-violet);border-radius:18px;padding:16px 18px}
+.offer-price{font-family:var(--display);font-size:40px;font-weight:800;line-height:1;color:var(--ink);margin:0}
+.offer-per{margin:6px 0 2px;font-weight:700;color:var(--muted)}
+.offer-then{margin:0;font-weight:800;color:var(--red-dark)}
+.offer-renew{text-align:center;color:var(--muted);font-weight:700;margin:14px 0 16px}
+.offer-claim{display:block;text-align:center;background:var(--ink);color:#fff;font-family:var(--display);font-weight:700;font-size:19px;text-decoration:none;border-radius:999px;padding:15px 20px;transition:transform .25s var(--ease),background .25s}
+.offer-claim:hover{background:var(--violet-dark);transform:translateY(-1px)}
+@media(max-width:560px){.offer{padding:20px 16px 22px}.offer-cell{min-width:44px}.offer-cell b{font-size:22px}.offer-tab{font-size:13px}}
