@@ -242,40 +242,65 @@
   <div class="wrap">
     <div class="sec-head reveal">
       <span class="kicker">Pricing · Black Friday sale</span>
-      <h2 id="price-h">Pick your team size.</h2>
+      <h2 id="price-h">Limited time offer.</h2>
       <p class="lead">Ferrum's first Black Friday sale is on — sale prices hold until after Christmas. Every plan comes with the same judge, the same approval cards, and the same record.</p>
     </div>
-    <div class="price-grid">
-      <div class="plat plat--team reveal" style="--i:0">
-        <span class="plat__tag">The full team</span>
+    <div class="offer reveal">
+      <div class="offer-count" role="timer" aria-label="Time left in the sale">
+        <div class="offer-cell"><b id="cd-d">--</b><small>DAYS</small></div>
+        <div class="offer-cell"><b id="cd-h">--</b><small>HR</small></div>
+        <div class="offer-cell"><b id="cd-m">--</b><small>MIN</small></div>
+        <div class="offer-cell"><b id="cd-s">--</b><small>SEC</small></div>
+      </div>
+      <div class="offer-tabs" role="tablist" aria-label="Plans">
+        <button class="offer-tab is-on" role="tab" aria-selected="true" data-panel="panel-team">Three Sparks</button>
+        <button class="offer-tab" role="tab" aria-selected="false" data-panel="panel-one">One Spark</button>
+        <button class="offer-tab" role="tab" aria-selected="false" data-panel="panel-seats">Spark Seats</button>
+      </div>
+      <div class="offer-panel" id="panel-team" role="tabpanel" aria-label="Three Sparks">
         <div class="plat__h"><span class="faces"><img class="face" src="assets/onyx.svg" alt="" width="46" height="46"><img class="face" src="assets/rune.svg" alt="" width="46" height="46"><img class="face" src="assets/talon.svg" alt="" width="46" height="46"></span><div><h3>Three Sparks</h3><small>In The Spark app</small></div></div>
-        <p class="price">$45<small>/month</small></p>
-        <p style="margin:-4px 0 10px;font-weight:800;color:#B3122E">Black Friday sale — regularly $60/month</p>
-        <ul>
+        <ul class="offer-benefits">
           <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="9"/><path d="m8 12.5 2.6 2.6L16.2 9.5"/></svg>Onyx, Rune and Talon — host, scout and builder</li>
           <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="9"/><path d="m8 12.5 2.6 2.6L16.2 9.5"/></svg>Their own computer, hands and phone line</li>
           <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="9"/><path d="m8 12.5 2.6 2.6L16.2 9.5"/></svg>Lessons, the safety judge and approval cards included</li>
         </ul>
+        <div class="offer-box">
+          <p class="offer-price">$45</p>
+          <p class="offer-per">per month during the sale</p>
+          <p class="offer-then">Then $60 monthly</p>
+        </div>
+        <p class="offer-renew">Renews at $60 a month after the offer ends, cancel anytime.</p>
+        <a class="offer-claim" href="discuss.html">Claim at launch — December 22</a>
       </div>
-      <div class="plat reveal" style="--i:1">
+      <div class="offer-panel" id="panel-one" hidden role="tabpanel" aria-label="One Spark">
         <div class="plat__h"><span class="faces"><img class="face" src="assets/onyx.svg" alt="" width="46" height="46"></span><div><h3>One Spark</h3><small>Inside the Ironworks app</small></div></div>
-        <p class="price">$15<small>/month</small></p>
-        <p style="margin:-4px 0 10px;font-weight:800;color:#B3122E">Black Friday sale — regularly $20/month</p>
-        <ul>
+        <ul class="offer-benefits">
           <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="9"/><path d="m8 12.5 2.6 2.6L16.2 9.5"/></svg>One Spark, working inside Ironworks</li>
           <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="9"/><path d="m8 12.5 2.6 2.6L16.2 9.5"/></svg>The same hands, memory and lessons</li>
           <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="9"/><path d="m8 12.5 2.6 2.6L16.2 9.5"/></svg>The same judge and approval cards</li>
         </ul>
+        <div class="offer-box">
+          <p class="offer-price">$15</p>
+          <p class="offer-per">per month during the sale</p>
+          <p class="offer-then">Then $20 monthly</p>
+        </div>
+        <p class="offer-renew">Renews at $20 a month after the offer ends, cancel anytime.</p>
+        <a class="offer-claim" href="discuss.html">Claim at launch — December 22</a>
       </div>
-      <div class="plat reveal" style="--i:2">
+      <div class="offer-panel" id="panel-seats" hidden role="tabpanel" aria-label="Spark Seats">
         <div class="plat__h"><span class="faces"><img class="face" src="assets/onyx.svg" alt="" width="46" height="46"><img class="face" src="assets/rune.svg" alt="" width="46" height="46"><img class="face" src="assets/talon.svg" alt="" width="46" height="46"></span><div><h3>Spark Seats</h3><small>For businesses</small></div></div>
-        <p class="price">$100<small>/month</small></p>
-        <p style="margin:-4px 0 10px;font-weight:800;color:#B3122E">Black Friday sale — regularly $200/month</p>
-        <ul>
+        <ul class="offer-benefits">
           <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="9"/><path d="m8 12.5 2.6 2.6L16.2 9.5"/></svg>One seat for each person at your business</li>
           <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="9"/><path d="m8 12.5 2.6 2.6L16.2 9.5"/></svg>Every seat gets the same judge and approval cards</li>
           <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="9"/><path d="m8 12.5 2.6 2.6L16.2 9.5"/></svg>Its own subscription — separate from the other plans, and you can add seats as your team grows</li>
         </ul>
+        <div class="offer-box">
+          <p class="offer-price">$100</p>
+          <p class="offer-per">per seat, per month during the sale</p>
+          <p class="offer-then">Then $200 monthly</p>
+        </div>
+        <p class="offer-renew">Renews at $200 a month after the offer ends, cancel anytime.</p>
+        <a class="offer-claim" href="discuss.html">Claim at launch — December 22</a>
       </div>
     </div>
     <p class="price-note reveal"><b>Subscriptions aren't open yet</b> — nobody is charged until they are. The Spark launches December 22, 2026, and pricing opens with it — at the sale prices above, which stay until after Christmas. Read the <a href="pricing-policy.html">pricing &amp; seats policy</a>.</p>
